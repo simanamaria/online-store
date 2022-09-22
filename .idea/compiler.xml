@@ -7,11 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Store" />
-        <module name="consoleApp" />
+        <module name="store" />
         <module name="domain" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="consoleApp" target="1.8" />
       <module name="Domain" target="1.5" />
       <module name="Parent" target="1.5" />
     </bytecodeTargetLevel>
