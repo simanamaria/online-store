@@ -1,3 +1,4 @@
+package com.coherentsolutions.domain;
 
 //class declaration
 public class Product {
