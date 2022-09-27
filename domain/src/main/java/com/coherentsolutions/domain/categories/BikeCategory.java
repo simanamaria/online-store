@@ -1,6 +1,5 @@
 package com.coherentsolutions.domain.categories;
 
-import java.util.Collection;
 
 public class BikeCategory {
     String name;
