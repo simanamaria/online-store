@@ -1,16 +1,15 @@
 package com.coherentsolutions.domain;
-
-import java.util.ArrayList;
 import java.util.List;
 
 
 public class Category {
-    String name;
-    List<Product> productList = new ArrayList<Product>();
+    List<Product> productList;
 
-
-    public Category(String name) {
-        this.name = name;
-}
-
+    public Category(List<Product> productList){
+        this.productList = productList;
     }
+
+    public List<Product> getProductList() {
+        return productList;
+    }
+}
