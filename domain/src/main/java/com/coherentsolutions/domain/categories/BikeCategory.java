@@ -21,4 +21,9 @@ public class BikeCategory extends Category {
     public void setName(String name) {
         this.name = name;
     }
+    
+        @Override
+    public String toString() {
+        return "Bike " + name + "Product list " + productList;
+    }
 }
