@@ -21,4 +21,9 @@ public class MilkCategory extends Category {
     public void setName(String name) {
         this.name = name;
     }
+    
+            @Override
+    public String toString() {
+        return "Milk " + name + "Product list " + productList;
+    }
 }
