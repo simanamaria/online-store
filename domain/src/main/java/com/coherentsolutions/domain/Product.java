@@ -36,4 +36,9 @@ public class Product {
     public void setRate(double rate) {
         this.rate = rate;
     }
+    
+    @Override
+    public String toString() {
+        return name + " rate= " + rate + " price= " + price;
+    }
 }
