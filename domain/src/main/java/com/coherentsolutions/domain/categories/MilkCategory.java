@@ -7,7 +7,7 @@ import com.coherentsolutions.domain.Product;
 import java.util.List;
 
 public class MilkCategory extends Category {
-    String name;
+    private String name;
 
     public MilkCategory(String name, List<Product> productList){
         super(productList);
