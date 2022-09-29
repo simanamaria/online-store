@@ -3,7 +3,7 @@ import java.util.List;
 
 
 public class Category {
-    List<Product> productList;
+    private List<Product> productList;
 
     public Category(List<Product> productList){
         this.productList = productList;
