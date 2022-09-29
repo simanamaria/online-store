@@ -7,7 +7,7 @@ import com.coherentsolutions.domain.Product;
 import java.util.List;
 
 public class BikeCategory extends Category {
-    String name;
+   private String name;
 
     public BikeCategory(String name, List<Product> productList){
         super(productList);
