@@ -1,2 +1,9 @@
-package com.coherentsolutions.domain.categories;public class MilkCategory {
+package com.coherentsolutions.domain.categories;
+
+import com.coherentsolutions.domain.Category;
+public class MilkCategory extends Category {
+
+    public MilkCategory(){
+        super("Milk");
+    }
 }
