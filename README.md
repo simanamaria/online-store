@@ -14,7 +14,7 @@ Classes to create:
 - `Category` classes with the `name` attribute, for each store category [bike, phone, milk] and `products list`
 - `Store` - class that should handle `category list`
 - `RandomStorePopulator` - utility class that will populate out store/category with fake data using `Faker` lib
-- `com.coherentsolutions.consoleApp.StoreApp` - class with main method to execute our store scenario.
+- `StoreApp` - class with main method to execute our store scenario.
 When invoke main method, application should init store with categories and products and `pretty` print this data.
 Also, categories should be read dynamically (at runtime), from base category package using `reflections` lib.
 
@@ -22,7 +22,7 @@ Also, categories should be read dynamically (at runtime), from base category pac
 ## Hints and FAQs
 ### Where to put classes?
 Classes have to be put in relevant modules:
-- `com.coherentsolutions.consoleApp.StoreApp` → `consoleApp`. `consoleApp` module contains only class `com.coherentsolutions.consoleApp.StoreApp` with `main()` method, which `creates` instance of `Store`, fill created store with `Products` and prints all the categories and all the products. The main purpose of this module is to run the store.
+- `StoreApp` → `consoleApp`. `consoleApp` module contains only class `StoreApp` with `main()` method, which `creates` instance of `Store`, fill created store with `Products` and prints all the categories and all the products. The main purpose of this module is to run the store.
 - `Product`, `Category`, `BikeCategory`, `PhoneCategory`, `MilkCategory` → `domain`. `domain` module contains only domain classes. The content of this module answers the question: "What is contained in the store?" In addition to products and product categories, in the future we could put such domain classes as `User`, `Admin`, `Cart` and so on here.
 - `Store`, `RandomStorePopulator` → `store`. `store` module contains all the business logic. The content of this module answers the question: "How is the business logic implemented?" In the future, there may be interfaces here. Database connection logic and so on. Perhaps now it makes sense to think about creating auxiliary classes `StoreHelper`, into which we will transfer part of the business logic from `Store`. In order our `Store` class to comply with the `SingleResponsibility` principle and not contain many methods loosely related to each other.
 ### Packages
