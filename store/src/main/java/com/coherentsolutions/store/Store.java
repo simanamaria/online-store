@@ -14,4 +14,5 @@ public class Store {
     public List<Category> getCategoryList() {
         return categoryList;
     }
+
 }
