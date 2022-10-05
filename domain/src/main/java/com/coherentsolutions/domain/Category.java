@@ -7,7 +7,7 @@ public class Category {
     private String name;
     private List<Product> productList;
 
-    public Category(String name){
+    public Category(String name) {
         this.name = name;
         productList = new ArrayList<>();
     }
@@ -19,4 +19,17 @@ public class Category {
     public String getName() {
         return name;
     }
+
+    public void addProduct(Product product) {
+        productList.add(product);
+    }
+
+    public void printProducts() {
+        System.out.println("Category: " + name + ".");
+
+        for (Product product : productList) {
+            System.out.println(product.toString());
+        }
+    }
+
 }
