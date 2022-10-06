@@ -2,8 +2,14 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/consoleApp" />
+    <content url="file://$MODULE_DIR$/consoleApp">
+      <sourceFolder url="file://$MODULE_DIR$/consoleApp/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/consoleApp/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/consoleApp/src/test/java" isTestSource="true" />
+      <excludePattern pattern="target" />
+    </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="storeApp" />
   </component>
 </module>
