@@ -22,9 +22,9 @@ public class StoreHelper {
         Map<Category, Integer> categoryMap = createCategoryMap();
 
         for (Map.Entry<Category, Integer> entry : categoryMap.entrySet()) {
-            Random random1 = new Random();
-            int nr = random1.nextInt(9) + 1;
-            for (int i = 0; i < nr; i++) {
+            Random randomNumber = new Random();
+            int j = randomNumber.nextInt(9) + 1;
+            for (int i = 0; i < j; i++) {
 
                 Product product = new Product(
                         random.getProductName(entry.getKey().getName()),
