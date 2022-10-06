@@ -15,4 +15,14 @@ public class Store {
         return categoryList;
     }
 
+    public void addCategory(Category category) {
+        categoryList.add(category);
+
+    }
+
+    public void printCategoryProducts() {
+        for (Category category : categoryList) {
+            category.printProducts();
+        }
+    }
 }
