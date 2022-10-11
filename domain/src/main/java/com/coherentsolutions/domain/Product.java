@@ -1,21 +1,21 @@
 package com.coherentsolutions.domain;
 public class Product {
    private String name;
-   private String rate;
-   private String price;
+   private double rate;
+   private double price;
 
     public Product(String name, String rate, String price) {
         this.name = name;
-        this.rate = rate;
-        this.price = price;
+        this.rate = Double.parseDouble(rate);
+        this.price = Double.parseDouble(price);
     }
 
-    public String getPrice() {
+    public double getPrice() {
         return price;
     }
 
     public void setPrice(String price) {
-        this.price = price;
+        this.price = Double.parseDouble(price);
     }
 
     public String getName() {
@@ -26,12 +26,12 @@ public class Product {
         this.name = name;
     }
 
-    public String getRate() {
+    public double getRate() {
         return rate;
     }
 
     public void setRate(String rate) {
-        this.rate = rate;
+        this.rate = Double.parseDouble(rate);
     }
     
     @Override
