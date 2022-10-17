@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8338681-b9be-41c6-b64d-132db650ce87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/XML/Comparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/XML/Enum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/XML/XMLParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consoleApp/src/main/resources/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/StoreApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/StoreApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/StoreApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/StoreApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/XML/Comparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/XML/Comparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp/src/main/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/main/resources/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/coherentsolutions/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/coherentsolutions/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/RandomStorePopulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/RandomStorePopulator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +49,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "C:/Users/Ami/onlinestore-simanamaria",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -91,5 +93,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
