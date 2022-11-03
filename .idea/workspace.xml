@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b8338681-b9be-41c6-b64d-132db650ce87" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/XML/Comparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/XML/ProductComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/XML/Enum.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/XML/WaysToSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/StoreApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/StoreApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/Store.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
