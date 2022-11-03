@@ -1,4 +1,6 @@
 package com.coherentsolutions.consoleApp.XML;
 
-public class Comparator {
+public enum WaysToSort {
+    ASC,
+    DESC
 }

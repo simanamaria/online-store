@@ -10,6 +10,7 @@
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="storeApp" />
+    <orderEntry type="module" module-name="storeApp" exported="" />
+    <orderEntry type="module" module-name="domain" exported="" />
   </component>
 </module>
