@@ -17,11 +17,11 @@ public class RandomStorePopulator {
         }
     }
 
-    public String getProductPrice() {
-        return faker.commerce().price();
+    public int getProductPrice() {
+        return faker.number().numberBetween(1,999);
     }
 
-    public String  getProductRate() {
-        return faker.commerce().promotionCode();
+    public int  getProductRate() {
+        return faker.number().numberBetween(1,100);
     }
 }
