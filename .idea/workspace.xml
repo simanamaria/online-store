@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b8338681-b9be-41c6-b64d-132db650ce87" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/StoreApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/StoreApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/coherentsolutions/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/coherentsolutions/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/Store.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,5 +99,22 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/onlinestore_simanamaria$PhoneCategoryTest.ic" NAME="PhoneCategoryTest Coverage Results" MODIFIED="1667845247507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.coherentsolutions.domain.categories.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/onlinestore_simanamaria$StoreTest_testGetInstance.ic" NAME="StoreTest.testGetInstance Coverage Results" MODIFIED="1667845367062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.coherentsolutions.store.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/onlinestore_simanamaria$BikeCategoryTest.ic" NAME="BikeCategoryTest Coverage Results" MODIFIED="1667845258508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.coherentsolutions.domain.categories.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/onlinestore_simanamaria$MilkCategoryTest.ic" NAME="MilkCategoryTest Coverage Results" MODIFIED="1667845235258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.coherentsolutions.domain.categories.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/onlinestore_simanamaria$ProductTest.ic" NAME="ProductTest Coverage Results" MODIFIED="1667845312584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.coherentsolutions.domain.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -25,10 +25,4 @@ public class Store {
         categoryList.add(category);
 
     }
-
-    public void printCategoryProducts() {
-        for (Category category : categoryList) {
-            category.printProducts();
-        }
-    }
 }

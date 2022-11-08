@@ -23,13 +23,4 @@ public class Category {
     public void addProduct(Product product) {
         productList.add(product);
     }
-
-    public void printProducts() {
-        System.out.println("Category: " + name + ".");
-
-        for (Product product : productList) {
-            System.out.println(product.toString());
-        }
-    }
-
 }
