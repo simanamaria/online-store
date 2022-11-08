@@ -5,17 +5,17 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 class CategoryTest {
-    /**
-     * Methods under test:
-     *
-     * <ul>
-     *   <li>{@link Category#Category(String)}
-     *   <li>{@link Category#getName()}
-     * </ul>
-     */
+
     @Test
     void testConstructor() {
         assertEquals("Name", (new Category("Name")).getName());
+    }
+    
+       @Test
+    void testAddProduct() {
+        Category category = new Category("Name");
+        category.addProduct(new Product("Name", 1, 1));
+        assertEquals(1, category.getProductList().size());
     }
 }
 
