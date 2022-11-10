@@ -19,7 +19,6 @@ public class XMLParser {
 
     public Map<String, String> getMap() {
         Map<String, String> stringStringMap = new LinkedHashMap<>();
-        //get document builder
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();

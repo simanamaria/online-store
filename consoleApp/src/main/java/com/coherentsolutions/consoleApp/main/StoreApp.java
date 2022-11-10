@@ -10,7 +10,7 @@ import java.util.*;
 
 public class StoreApp {
     public static void main(String[] args) throws Exception {
-        Store onlineStore = new Store();
+        Store onlineStore = Store.getInstance();
         StoreHelper storeHelper = new StoreHelper(onlineStore);
         storeHelper.populateStore();
 

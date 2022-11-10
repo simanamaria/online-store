@@ -16,28 +16,12 @@ public class Product {
         return price;
     }
 
-    public void setPrice(int price) {
-        this.price = price;
-    }
-
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public int getRate() {
         return rate;
     }
 
-    public void setRate(int rate) {
-        this.rate = rate;
-    }
-    
-    @Override
-    public String toString() {
-        return name + " rate= " + rate + " price= " + price;
-    }
 }
