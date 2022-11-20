@@ -1,7 +1,8 @@
-package com.coherentsolutions.store;
+package com.coherentsolutions.store.helper;
 
 import com.coherentsolutions.domain.Category;
 import com.coherentsolutions.domain.Product;
+import com.coherentsolutions.store.Store;
 import org.reflections.Reflections;
 
 import java.lang.reflect.InvocationTargetException;

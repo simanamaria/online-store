@@ -1,4 +1,4 @@
-package com.coherentsolutions.store;
+package com.coherentsolutions.store.helper;
 import com.coherentsolutions.domain.CategoryEnum;
 import com.github.javafaker.Faker;
 

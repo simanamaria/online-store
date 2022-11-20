@@ -6,16 +6,20 @@ import com.coherentsolutions.domain.Category;
 
 public class Store {
     private List<Category> categoryList = new ArrayList<>();
-
-    private static Store onlineStore = null;
+    private static volatile Store instance;
+    private static Object mutex = new Object();
 
     private Store(){};
 
     public static Store getInstance(){
-        if (onlineStore == null) {
-            onlineStore = new Store();
+        Store result = instance;
+        if (result == null) {
+            synchronized (mutex){
+                result = instance;
+                if (result == null) instance = result = new Store();
+            }
         }
-        return onlineStore;
+        return result;
     }
     public List<Category> getCategoryList() {
         return categoryList;
