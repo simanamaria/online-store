@@ -24,4 +24,12 @@ public class Product {
         return rate;
     }
 
+    @Override
+    public String toString() {
+        return '\n' + "Product " +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", rate=" + rate;
+    }
+
 }

@@ -27,7 +27,7 @@ public class StoreHelper {
             for (int i = 0; i < j; i++) {
 
                 Product product = new Product(
-                        random.getProductName(entry.getKey().getName()),
+                        random.getProductName(entry.getKey().getEnumName()), //!
                         random.getProductRate(),
                         random.getProductPrice());
                 entry.getKey().addProduct(product);

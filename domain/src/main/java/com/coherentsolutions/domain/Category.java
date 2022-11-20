@@ -3,20 +3,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class Category {
-    private String name;
+public abstract class Category {
+    private CategoryEnum name;
     private List<Product> productList;
 
-    public Category(String name) {
+
+    public Category(CategoryEnum name) {
         this.name = name;
-        productList = new ArrayList<>();
+        this.productList = new ArrayList<>();
     }
 
     public List<Product> getProductList() {
         return productList;
     }
 
-    public String getName() {
+    public CategoryEnum getEnumName() {
         return name;
     }
 
