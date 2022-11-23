@@ -1,7 +1,8 @@
-package com.coherentsolutions.store;
+package com.coherentsolutions.store.helper;
 
 import com.coherentsolutions.domain.Category;
 import com.coherentsolutions.domain.Product;
+import com.coherentsolutions.store.Store;
 import org.reflections.Reflections;
 
 import java.lang.reflect.InvocationTargetException;
@@ -27,7 +28,7 @@ public class StoreHelper {
             for (int i = 0; i < j; i++) {
 
                 Product product = new Product(
-                        random.getProductName(entry.getKey().getName()),
+                        random.getProductName(entry.getKey().getEnumName()), //!
                         random.getProductRate(),
                         random.getProductPrice());
                 entry.getKey().addProduct(product);

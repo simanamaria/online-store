@@ -1,21 +1,28 @@
 package com.coherentsolutions.domain;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import com.coherentsolutions.domain.categories.BikeCategory;
 import org.junit.jupiter.api.Test;
 
 class CategoryTest {
 
     @Test
-    void testConstructor() {
-        assertEquals("Name", (new Category("Name")).getName());
+    void testGetProductList() {
+        assertTrue((new BikeCategory()).getProductList().isEmpty());
     }
-    
-       @Test
+
+    @Test
+    void testGetEnumName() {
+        assertEquals(CategoryEnum.BIKE, (new BikeCategory()).getEnumName());
+    }
+
+    @Test
     void testAddProduct() {
-        Category category = new Category("Name");
-        category.addProduct(new Product("Name", 1, 1));
-        assertEquals(1, category.getProductList().size());
+        BikeCategory bikeCategory = new BikeCategory();
+        bikeCategory.addProduct(new Product("Name", 1, 1));
+        assertEquals(1, bikeCategory.getProductList().size());
     }
 }
 

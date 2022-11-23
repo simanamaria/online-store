@@ -1,16 +1,17 @@
-package com.coherentsolutions.store;
+package com.coherentsolutions.store.helper;
+import com.coherentsolutions.domain.CategoryEnum;
 import com.github.javafaker.Faker;
 
 public class RandomStorePopulator {
     private Faker faker = new Faker();
 
-    public String getProductName(String categoryName) {
-        switch (categoryName) {
-            case "Bike":
+    public String getProductName(CategoryEnum category) {
+        switch (category.toString()) {
+            case "BIKE":
                 return faker.commerce().productName();
-            case "Phones":
+            case "PHONE":
                 return faker.company().name();
-            case "Milk":
+            case "MILK":
                 return faker.company().buzzword();
             default:
                 return null;
