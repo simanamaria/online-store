@@ -11,7 +11,6 @@
       <set>
         <option value="$PROJECT_DIR$/Domain/pom.xml" />
         <option value="$PROJECT_DIR$/Parent/pom.xml" />
-        <option value="$PROJECT_DIR$/consoleApp/pom.xml" />
       </set>
     </option>
   </component>
