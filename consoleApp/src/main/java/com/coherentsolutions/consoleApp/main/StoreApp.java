@@ -7,14 +7,31 @@ import com.coherentsolutions.store.Store;
 import com.coherentsolutions.store.helper.StoreHelper;
 import com.coherentsolutions.store.multithreading.CartOrder;
 import com.coherentsolutions.store.multithreading.CartCleaner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
+import java.sql.Connection;
+import java.sql.DriverManager;
 
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
 
+import static com.coherentsolutions.store.database.DatabaseApplication.*;
+@SpringBootApplication
 public class StoreApp {
     private static CopyOnWriteArrayList<Product> copyOnWriteArrayList = new CopyOnWriteArrayList<>();
-    public static void main(String[] args) throws Exception {
+   public static void main(String[] args) throws Exception {
+       SpringApplication.run(StoreApp.class, args);
+        try(Connection connection = DriverManager.getConnection("jdbc:h2:mem:product","sa","")) {
+            createSchema(connection);
+            for(int i = 1; i <= 100; ++i) {
+                createProduct(connection, i);
+                createCategory(connection, i);
+            }
+            printProducts(connection);
+        }
+
         Store onlineStore = Store.getInstance();
         StoreHelper storeHelper = new StoreHelper(onlineStore);
         storeHelper.populateStore();
@@ -41,8 +58,13 @@ public class StoreApp {
             if (next.equalsIgnoreCase("top")) {
                 comparator.mostExpensive(onlineStore);
             }}
-    }
+        }
+
+
+
     private static void order(List<Product> allProducts){
         new Thread(new CartOrder(copyOnWriteArrayList, allProducts)).start();
     }
+
+
 }

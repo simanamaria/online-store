@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8338681-b9be-41c6-b64d-132db650ce87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/multithreading/CartCleaner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/multithreading/CartOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/src/test/java/com/coherentsolutions/store/database/DatabaseApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/src/test/java/com/coherentsolutions/store/database/ProductControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/src/test/java/com/coherentsolutions/store/database/SampleDataLoaderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/StoreApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/StoreApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/coherentsolutions/domain/categories/BikeCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/coherentsolutions/domain/categories/BikeCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/RandomStorePopulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/helper/RandomStorePopulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/StoreHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/helper/StoreHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/database/SampleDataConfig.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +21,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -42,19 +40,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Users/Ami/onlinestore-simanamaria",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ami/onlinestore-simanamaria&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ami\onlinestore-simanamaria\domain\src\main\java\com\coherentsolutions\domain" />
@@ -72,40 +70,31 @@
       <recent name="com.coherentsolutions.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Diffblue Cover.Write tests for class CartOrder">
-    <configuration name="Write tests for class CartCleaner" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
-      <module name="storeApp" />
-      <settings run-config-name="Write tests for class CartCleaner" include-system-env-vars="true">
+  <component name="RunManager" selected="Diffblue Cover.Write tests for class RandomStorePopulator (2)">
+    <configuration name="Write tests for class ProductController" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="store" />
+      <settings run-config-name="Write tests for class ProductController" include-system-env-vars="true">
         <jvm-args />
         <selection-scope>class</selection-scope>
-        <selected-element key="com.coherentsolutions.store.multithreading.CartCleaner" />
+        <selected-element key="com.coherentsolutions.store.database.ProductController" />
       </settings>
       <method v="2" />
     </configuration>
-    <configuration name="Write tests for class CartOrder" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
-      <module name="storeApp" />
-      <settings run-config-name="Write tests for class CartOrder" include-system-env-vars="true">
+    <configuration name="Write tests for class ProductRepository" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="store" />
+      <settings run-config-name="Write tests for class ProductRepository" include-system-env-vars="true">
         <jvm-args />
         <selection-scope>class</selection-scope>
-        <selected-element key="com.coherentsolutions.store.multithreading.CartOrder" />
+        <selected-element key="com.coherentsolutions.store.database.ProductRepository" />
       </settings>
       <method v="2" />
     </configuration>
-    <configuration name="Write tests for class CategoryFactory" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
-      <module name="domain" />
-      <settings run-config-name="Write tests for class CategoryFactory" include-system-env-vars="true">
+    <configuration name="Write tests for class RandomStorePopulator (2)" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="store" />
+      <settings run-config-name="Write tests for class RandomStorePopulator (2)" include-system-env-vars="true">
         <jvm-args />
         <selection-scope>class</selection-scope>
-        <selected-element key="com.coherentsolutions.domain.CategoryFactory" />
-      </settings>
-      <method v="2" />
-    </configuration>
-    <configuration name="Write tests for class Product" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
-      <module name="domain" />
-      <settings run-config-name="Write tests for class Product" include-system-env-vars="true">
-        <jvm-args />
-        <selection-scope>class</selection-scope>
-        <selected-element key="com.coherentsolutions.domain.Product" />
+        <selected-element key="com.coherentsolutions.store.helper.RandomStorePopulator" />
       </settings>
       <method v="2" />
     </configuration>
@@ -118,22 +107,31 @@
       </settings>
       <method v="2" />
     </configuration>
-    <configuration name="Write tests for method StoreHelper.populateStore" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
-      <module name="storeApp" />
-      <settings run-config-name="Write tests for method StoreHelper.populateStore" include-system-env-vars="true">
+    <configuration name="Write tests for class SampleDataConfig" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="store" />
+      <settings run-config-name="Write tests for class SampleDataConfig" include-system-env-vars="true">
         <jvm-args />
-        <selection-scope>method</selection-scope>
-        <selected-element key="com.coherentsolutions.store.StoreHelper.populateStore:()V" />
+        <selection-scope>class</selection-scope>
+        <selected-element key="com.coherentsolutions.store.database.SampleDataConfig" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Write tests for class SampleDataLoader" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="store" />
+      <settings run-config-name="Write tests for class SampleDataLoader" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>class</selection-scope>
+        <selected-element key="com.coherentsolutions.store.database.SampleDataLoader" />
       </settings>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Diffblue Cover.Write tests for class CartOrder" />
-        <item itemvalue="Diffblue Cover.Write tests for class CartCleaner" />
-        <item itemvalue="Diffblue Cover.Write tests for method StoreHelper.populateStore" />
-        <item itemvalue="Diffblue Cover.Write tests for class Product" />
-        <item itemvalue="Diffblue Cover.Write tests for class CategoryFactory" />
+        <item itemvalue="Diffblue Cover.Write tests for class RandomStorePopulator (2)" />
+        <item itemvalue="Diffblue Cover.Write tests for class SampleDataLoader" />
+        <item itemvalue="Diffblue Cover.Write tests for class SampleDataConfig" />
+        <item itemvalue="Diffblue Cover.Write tests for class ProductRepository" />
+        <item itemvalue="Diffblue Cover.Write tests for class ProductController" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +166,7 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/domain/src/main/java/com/coherentsolutions/domain/Product.java</url>
-          <line>2</line>
+          <line>8</line>
           <properties field="name" class="com.coherentsolutions.domain.Product" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
