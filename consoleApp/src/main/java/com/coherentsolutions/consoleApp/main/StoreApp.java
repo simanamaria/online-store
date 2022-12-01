@@ -23,16 +23,14 @@ public class StoreApp {
     private static CopyOnWriteArrayList<Product> copyOnWriteArrayList = new CopyOnWriteArrayList<>();
    public static void main(String[] args) throws Exception {
        SpringApplication.run(StoreApp.class, args);
-        try(Connection connection = DriverManager.getConnection("jdbc:h2:mem:people","sa","")) {
+        try(Connection connection = DriverManager.getConnection("jdbc:h2:mem:product","sa","")) {
             createSchema(connection);
-            // create 100 rows of fake data
             for(int i = 1; i <= 100; ++i) {
                 createProduct(connection, i);
                 createCategory(connection, i);
             }
             printProducts(connection);
         }
-
 
         Store onlineStore = Store.getInstance();
         StoreHelper storeHelper = new StoreHelper(onlineStore);

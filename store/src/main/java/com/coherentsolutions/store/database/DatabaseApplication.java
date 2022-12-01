@@ -27,7 +27,7 @@ public class DatabaseApplication {
     public static void createSchema(Connection connection) throws SQLException {
         Statement statement = connection.createStatement();
         String categorySchema = "create table category (category_id integer, type varchar(255), primary key (category_id))";
-        String productSchema = "create table product (product_id integer, product_name varchar(255), product_price integer, product_rate integer, phone_number varchar(255), category_id integer, primary key (product_id))";
+        String productSchema = "create table product (product_id integer, product_name varchar(255), product_price integer, product_rate integer, category_id integer, primary key (product_id))";
         statement.executeUpdate(categorySchema);
         statement.executeUpdate(productSchema);
     }
