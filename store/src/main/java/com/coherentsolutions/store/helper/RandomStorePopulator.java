@@ -8,11 +8,9 @@ public class RandomStorePopulator {
     public String getProductName(CategoryEnum category) {
         switch (category.toString()) {
             case "BIKE":
-                return faker.commerce().productName();
             case "PHONE":
-                return faker.company().name();
             case "MILK":
-                return faker.company().buzzword();
+                return faker.commerce().productName();
             default:
                 return null;
         }

@@ -5,11 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8338681-b9be-41c6-b64d-132db650ce87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/store/src/test/java/com/coherentsolutions/store/database/DatabaseApplicationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/test/java/com/coherentsolutions/store/database/ProductControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/test/java/com/coherentsolutions/store/database/SampleDataLoaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/storeHandler/AbstractHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/storeHandler/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/storeHandler/OrderFromCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/storeHandler/SortProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/storeHandler/Stop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/storeHandler/Top5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/XML/ProductComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/XML/XMLParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/storeHandler/AbstractHandlerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/storeHandler/OrderFromCartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/storeHandler/SortProductsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/storeHandler/StopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/storeHandler/Top5Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/src/test/java/com/coherentsolutions/store/helper/MatchesRegularExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/src/test/java/com/coherentsolutions/store/helper/RandomStorePopulatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/src/test/java/com/coherentsolutions/store/helper/StoreHelperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/database/SampleDataConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/XML/XMLParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/XML/XMLParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/StoreApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/StoreApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/coherentsolutions/domain/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/com/coherentsolutions/domain/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/helper/RandomStorePopulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/helper/RandomStorePopulator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +36,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -35,7 +51,9 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2F8e35Tuip5a2xVqRXQCWOH9dOB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -70,33 +88,78 @@
       <recent name="com.coherentsolutions.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Diffblue Cover.Write tests for class RandomStorePopulator (2)">
-    <configuration name="Write tests for class ProductController" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
-      <module name="store" />
-      <settings run-config-name="Write tests for class ProductController" include-system-env-vars="true">
-        <jvm-args />
-        <selection-scope>class</selection-scope>
-        <selected-element key="com.coherentsolutions.store.database.ProductController" />
-      </settings>
-      <method v="2" />
+  <component name="RunManager" selected="JUnit.com.coherentsolutions.store in store">
+    <configuration name="Top5Test.testHandleRequest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="consoleApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coherentsolutions.consoleApp.storeHandler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.coherentsolutions.consoleApp.storeHandler" />
+      <option name="MAIN_CLASS_NAME" value="com.coherentsolutions.consoleApp.storeHandler.Top5Test" />
+      <option name="METHOD_NAME" value="testHandleRequest3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="Write tests for class ProductRepository" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
-      <module name="store" />
-      <settings run-config-name="Write tests for class ProductRepository" include-system-env-vars="true">
-        <jvm-args />
-        <selection-scope>class</selection-scope>
-        <selected-element key="com.coherentsolutions.store.database.ProductRepository" />
-      </settings>
-      <method v="2" />
+    <configuration name="com.coherentsolutions.consoleApp.XML in consoleApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="consoleApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coherentsolutions.consoleApp.XML.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.coherentsolutions.consoleApp.XML" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="Write tests for class RandomStorePopulator (2)" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+    <configuration name="com.coherentsolutions.consoleApp.storeHandler in consoleApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="consoleApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coherentsolutions.consoleApp.storeHandler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.coherentsolutions.consoleApp.storeHandler" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.coherentsolutions.domain in domain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coherentsolutions.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.coherentsolutions.domain" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.coherentsolutions.store in store" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="store" />
-      <settings run-config-name="Write tests for class RandomStorePopulator (2)" include-system-env-vars="true">
-        <jvm-args />
-        <selection-scope>class</selection-scope>
-        <selected-element key="com.coherentsolutions.store.helper.RandomStorePopulator" />
-      </settings>
-      <method v="2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coherentsolutions.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.coherentsolutions.store" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Write tests for class RandomStorePopulator" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration">
       <module name="storeApp" />
@@ -107,31 +170,13 @@
       </settings>
       <method v="2" />
     </configuration>
-    <configuration name="Write tests for class SampleDataConfig" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
-      <module name="store" />
-      <settings run-config-name="Write tests for class SampleDataConfig" include-system-env-vars="true">
-        <jvm-args />
-        <selection-scope>class</selection-scope>
-        <selected-element key="com.coherentsolutions.store.database.SampleDataConfig" />
-      </settings>
-      <method v="2" />
-    </configuration>
-    <configuration name="Write tests for class SampleDataLoader" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
-      <module name="store" />
-      <settings run-config-name="Write tests for class SampleDataLoader" include-system-env-vars="true">
-        <jvm-args />
-        <selection-scope>class</selection-scope>
-        <selected-element key="com.coherentsolutions.store.database.SampleDataLoader" />
-      </settings>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Diffblue Cover.Write tests for class RandomStorePopulator (2)" />
-        <item itemvalue="Diffblue Cover.Write tests for class SampleDataLoader" />
-        <item itemvalue="Diffblue Cover.Write tests for class SampleDataConfig" />
-        <item itemvalue="Diffblue Cover.Write tests for class ProductRepository" />
-        <item itemvalue="Diffblue Cover.Write tests for class ProductController" />
+        <item itemvalue="JUnit.com.coherentsolutions.store in store" />
+        <item itemvalue="JUnit.com.coherentsolutions.domain in domain" />
+        <item itemvalue="JUnit.com.coherentsolutions.consoleApp.XML in consoleApp" />
+        <item itemvalue="JUnit.com.coherentsolutions.consoleApp.storeHandler in consoleApp" />
+        <item itemvalue="JUnit.Top5Test.testHandleRequest3" />
       </list>
     </recent_temporary>
   </component>
@@ -170,24 +215,55 @@
           <properties field="name" class="com.coherentsolutions.domain.Product" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/store/src/test/java/com/coherentsolutions/store/helper/StoreHelperTest.java</url>
+          <line>20</line>
+          <properties class="com.coherentsolutions.store.helper.StoreHelperTest" method="testPopulateStore">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/onlinestore_simanamaria$com_coherentsolutions_domain_in_domain.ic" NAME="com.coherentsolutions.domain in domain Coverage Results" MODIFIED="1670087259962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.coherentsolutions.domain.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/onlinestore_simanamaria$PhoneCategoryTest.ic" NAME="PhoneCategoryTest Coverage Results" MODIFIED="1667845247507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.coherentsolutions.domain.categories.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/onlinestore_simanamaria$StoreTest_testGetInstance.ic" NAME="StoreTest.testGetInstance Coverage Results" MODIFIED="1667845367062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.coherentsolutions.store.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/onlinestore_simanamaria$ProductComparatorTest.ic" NAME="ProductComparatorTest Coverage Results" MODIFIED="1670084293787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.coherentsolutions.consoleApp.XML.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/onlinestore_simanamaria$BikeCategoryTest.ic" NAME="BikeCategoryTest Coverage Results" MODIFIED="1667845258508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.coherentsolutions.domain.categories.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/onlinestore_simanamaria$All_in_onlinestore_simanamaria.ic" NAME="All in onlinestore-simanamaria Coverage Results" MODIFIED="1670087032240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/onlinestore_simanamaria$com_coherentsolutions_store_helper_in_store.ic" NAME="com.coherentsolutions.store.helper in store Coverage Results" MODIFIED="1670086430970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.coherentsolutions.store.helper.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/onlinestore_simanamaria$All_in_store.ic" NAME="All in store Coverage Results" MODIFIED="1670086984868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/onlinestore_simanamaria$MilkCategoryTest.ic" NAME="MilkCategoryTest Coverage Results" MODIFIED="1667845235258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.coherentsolutions.domain.categories.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/onlinestore_simanamaria$ProductTest.ic" NAME="ProductTest Coverage Results" MODIFIED="1667845312584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.coherentsolutions.domain.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/onlinestore_simanamaria$All_in_domain.ic" NAME="All in domain Coverage Results" MODIFIED="1670086956164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/onlinestore_simanamaria$All_in_consoleApp.ic" NAME="All in consoleApp Coverage Results" MODIFIED="1670087071975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/onlinestore_simanamaria$com_coherentsolutions_consoleApp_storeHandler_in_consoleApp.ic" NAME="com.coherentsolutions.consoleApp.storeHandler in consoleApp Coverage Results" MODIFIED="1670087238460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.coherentsolutions.consoleApp.storeHandler.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/onlinestore_simanamaria$com_coherentsolutions_store_in_store.ic" NAME="com.coherentsolutions.store in store Coverage Results" MODIFIED="1670087269175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.coherentsolutions.store.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/onlinestore_simanamaria$com_coherentsolutions_consoleApp_XML_in_consoleApp.ic" NAME="com.coherentsolutions.consoleApp.XML in consoleApp Coverage Results" MODIFIED="1670087249021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.coherentsolutions.consoleApp.XML.*</FILTER>
     </SUITE>
   </component>
 </project>
