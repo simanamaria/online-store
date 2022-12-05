@@ -1,4 +1,4 @@
-package com.coherentsolutions.consoleApp.main.httpSecurity;
+package com.coherentsolutions.consoleApp.main.server;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;

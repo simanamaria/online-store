@@ -6,11 +6,10 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import com.coherentsolutions.consoleApp.main.httpSecurity.User;
-import com.coherentsolutions.consoleApp.main.httpSecurity.UserRepository;
+import com.coherentsolutions.consoleApp.main.server.User;
+import com.coherentsolutions.consoleApp.main.server.UserRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.security.crypto.argon2.Argon2PasswordEncoder;
-import org.springframework.security.crypto.password.PasswordEncoder;
 
 class StoreAppTest {
 

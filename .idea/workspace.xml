@@ -5,26 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8338681-b9be-41c6-b64d-132db650ce87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/httpSecurity/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/httpSecurity/JpaUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/httpSecurity/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/httpSecurity/SecurityUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/httpSecurity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/httpSecurity/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/StoreAppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/httpSecurity/HomeControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/httpSecurity/JpaUserDetailsServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/httpSecurity/SecurityConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/httpSecurity/SecurityUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/httpSecurity/UserRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/httpSecurity/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/server/AsyncConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/server/AsyncConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/src/test/java/com/coherentsolutions/store/multithreading/CartOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consoleApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/StoreApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/StoreApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/coherentsolutions/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/coherentsolutions/domain/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/httpSecurity/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/server/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/httpSecurity/JpaUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/server/JpaUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/httpSecurity/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/server/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/httpSecurity/SecurityUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/server/SecurityUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/httpSecurity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/server/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/httpSecurity/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/main/server/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/storeHandler/OrderFromCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/main/java/com/coherentsolutions/consoleApp/storeHandler/OrderFromCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/StoreAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/StoreAppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/httpSecurity/HomeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/server/HomeControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/httpSecurity/JpaUserDetailsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/server/JpaUserDetailsServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/httpSecurity/SecurityConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/server/SecurityConfigTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/httpSecurity/SecurityUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/server/SecurityUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/httpSecurity/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/server/UserRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/httpSecurity/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/consoleApp/src/test/java/com/coherentsolutions/consoleApp/main/server/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/store/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/database/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/database/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/database/SampleDataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/database/SampleDataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/multithreading/CartCleaner.java" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/multithreading/CartCleaner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/multithreading/CartOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/java/com/coherentsolutions/store/multithreading/CartOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,26 +90,27 @@
       <recent name="C:\Users\Ami\onlinestore-simanamaria\domain\by.coherentsolutions.domain" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.coherentsolutions.consoleApp.main.httpSecurity" />
       <recent name="com.coherentsolutions.store.database" />
       <recent name="com.coherentsolutions.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Diffblue Cover.Write tests for method StoreApp.commandLineRunner">
+  <component name="RunManager">
+    <configuration name="Write tests for class AsyncConfig" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="consoleApp" />
+      <settings run-config-name="Write tests for class AsyncConfig" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>class</selection-scope>
+        <selected-element key="com.coherentsolutions.consoleApp.main.server.AsyncConfig" />
+      </settings>
+      <method v="2" />
+    </configuration>
     <configuration name="Write tests for class RandomStorePopulator" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration">
       <module name="storeApp" />
       <settings run-config-name="Write tests for class RandomStorePopulator" include-system-env-vars="true">
         <jvm-args />
         <selection-scope>class</selection-scope>
         <selected-element key="com.coherentsolutions.store.RandomStorePopulator" />
-      </settings>
-      <method v="2" />
-    </configuration>
-    <configuration name="Write tests for class SecurityConfig" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
-      <module name="consoleApp" />
-      <settings run-config-name="Write tests for class SecurityConfig" include-system-env-vars="true">
-        <jvm-args />
-        <selection-scope>class</selection-scope>
-        <selected-element key="com.coherentsolutions.consoleApp.main.httpSecurity.SecurityConfig" />
       </settings>
       <method v="2" />
     </configuration>
@@ -135,6 +141,15 @@
       </settings>
       <method v="2" />
     </configuration>
+    <configuration name="Write tests for method CartOrder.getAllOrderedProducts" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="store" />
+      <settings run-config-name="Write tests for method CartOrder.getAllOrderedProducts" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>method</selection-scope>
+        <selected-element key="com.coherentsolutions.store.multithreading.CartOrder.getAllOrderedProducts:()Ljava/util/concurrent/CompletableFuture;" />
+      </settings>
+      <method v="2" />
+    </configuration>
     <configuration name="Write tests for method StoreApp.commandLineRunner" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration">
       <module name="consoleApp" />
       <settings run-config-name="Write tests for method StoreApp.commandLineRunner" include-system-env-vars="true">
@@ -146,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Diffblue Cover.Write tests for class AsyncConfig" />
+        <item itemvalue="Diffblue Cover.Write tests for method CartOrder.getAllOrderedProducts" />
         <item itemvalue="Diffblue Cover.Write tests for method StoreApp.commandLineRunner" />
         <item itemvalue="Diffblue Cover.Write tests for class UserRepository" />
         <item itemvalue="Diffblue Cover.Write tests for class User" />
-        <item itemvalue="Diffblue Cover.Write tests for class SecurityUser" />
-        <item itemvalue="Diffblue Cover.Write tests for class SecurityConfig" />
       </list>
     </recent_temporary>
   </component>

@@ -1,4 +1,4 @@
-package com.coherentsolutions.consoleApp.main.httpSecurity;
+package com.coherentsolutions.consoleApp.main.server;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

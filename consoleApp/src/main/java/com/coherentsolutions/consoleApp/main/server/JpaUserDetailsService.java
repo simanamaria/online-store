@@ -1,4 +1,4 @@
-package com.coherentsolutions.consoleApp.main.httpSecurity;
+package com.coherentsolutions.consoleApp.main.server;
 
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

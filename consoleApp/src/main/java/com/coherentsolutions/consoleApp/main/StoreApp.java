@@ -3,12 +3,14 @@ package com.coherentsolutions.consoleApp.main;
 import com.coherentsolutions.consoleApp.storeHandler.SortProducts;
 import com.coherentsolutions.store.Store;
 import com.coherentsolutions.store.helper.StoreHelper;
-import com.coherentsolutions.consoleApp.main.httpSecurity.User;
-import com.coherentsolutions.consoleApp.main.httpSecurity.UserRepository;
+import com.coherentsolutions.consoleApp.main.server.User;
+import com.coherentsolutions.consoleApp.main.server.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.scheduling.annotation.AsyncConfigurer;
+import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 
@@ -20,7 +22,8 @@ import java.sql.DriverManager;
 
 import static com.coherentsolutions.store.database.DatabaseApplication.*;
 @SpringBootApplication
-public class StoreApp {
+@EnableAsync
+public class StoreApp implements AsyncConfigurer {
     public static void main(String[] args) throws Exception {
         SpringApplication.run(StoreApp.class, args);
 
@@ -55,4 +58,5 @@ public class StoreApp {
             users.save(new User("admin",encoder.encode("password"),"ROLE_USER,ROLE_ADMIN"));
         };
     }
+
 }
