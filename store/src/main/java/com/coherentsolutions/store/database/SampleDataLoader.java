@@ -1,7 +1,5 @@
 package com.coherentsolutions.store.database;
 
-import com.coherentsolutions.domain.CategoryEnum;
-import com.coherentsolutions.domain.CategoryFactory;
 import com.coherentsolutions.domain.Product;
 import com.github.javafaker.Faker;
 import org.springframework.boot.CommandLineRunner;
@@ -10,8 +8,6 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-
-import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
 
 @Component
 public class SampleDataLoader implements CommandLineRunner {

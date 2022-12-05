@@ -13,6 +13,10 @@ public class ProductController {
         public ProductController(ProductRepository productRepository) {
             this.productRepository = productRepository;
         }
+        @GetMapping
+        public Iterable findAll(){
+            return productRepository.findAll();
+        }
         @GetMapping("/findBy")
         public Product findById(@RequestParam int id) {
             return productRepository.findById(id);
