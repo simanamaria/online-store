@@ -15,7 +15,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class XMLParser {
-        private static final String FILE = "consoleApp/src/main/resources/config.xml";
+    private static final String FILE = "consoleApp/src/main/resources/config.xml";
 
     public Map<String, String> getMap() {
         Map<String, String> stringStringMap = new LinkedHashMap<>();
@@ -24,7 +24,6 @@ public class XMLParser {
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document document = builder.parse(new File(FILE));
             document.getDocumentElement().normalize();
-
             if (document.getFirstChild().hasChildNodes()){
             NodeList nodeList = document.getFirstChild().getChildNodes();
             for (int i = 0; i < nodeList.getLength(); i++){
