@@ -1,16 +1,20 @@
-### 8. HTTP
+Online Store:
+This is a Java project for an online store, implemented using a multimodular Maven project structure to keep the code organized and maintainable as new features were added.
 
-----
-#### Materials
+Object-Oriented Design:
+The store application was implemented using object-oriented design principles, with classes like Product, Category, Store, RandomStorePopulator, and StoreApp.
 
-[HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
-[HTTP simple servers (plain java/lib)](https://syntaxcorrect.com/Java/5_Ultra_Lightweight_Http_Server_Implementations_in_Java_for_Blazing_Fast_Microservices_APIs_or_Even_Websites)
-[Basic auth](https://en.wikipedia.org/wiki/Basic_access_authentication)
-[RestAssured](https://rest-assured.io/)
-#### Task #8
+Cart and User System:
+The store was extended to include a cart and user system, including functionality for users to add and remove items from their cart and checkout.
 
-The same task as previous, but to store and get store data you should 
-- implement an HTTP server (use included in java or external lib), that will handle in memory or DB your categories, but you will receive them via HTTP protocol.
-- Also, you should implement `add the product to cart` logic in this server, and process this request via HTTP.
-- Finally, your HTTP service should be secured with basic authentication  (credentials can be hardcoded).
-- For HTTP client-side you also can use the default (included in java) or use RestAssured. 
+Performance Optimization:
+To improve the performance of the application, multithreading was implemented to clear the cart after a certain amount of time and create separate threads to process orders. Design patterns were also applied where appropriate to improve the efficiency and maintainability of the code.
+
+Testing:
+Unit tests were written to cover all aspects of the project.
+
+Database Connectivity:
+The project implements database connectivity using the H2 database and Spring framework.
+
+HTTP server:
+An HTTP server was created in Java to handle categories and products, with the ability to store them in memory or a database. The server can process requests to add products to a cart and is secured with basic authentication. The client side was implemented using Spring.
